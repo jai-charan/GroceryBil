@@ -21,7 +21,6 @@ public class GroceryBill {
         double price = itemsPrice.get(index).doubleValue() * value ;
         amount = amount + price;
     }
-
     public void calculate(String item, String quantity) throws Exception{
         if (groceryItems.contains(item)) {
             int length = quantity.length();
